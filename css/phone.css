@@ -1,0 +1,67 @@
+#navBar{
+    flex-direction: column;
+}
+#navBar ul li a{
+    font-size: 1rem;
+    padding: Opx 5px;
+    padding-bottom: 8px;
+}
+#logo img {
+    margin: -28px -25px;
+    height: 60px;
+}
+/* Home section */
+#home{
+    height: 370px;
+    padding: 3px 25px;
+    flex-direction: column;
+}
+#home h1{
+    font-size: 2.3rem;
+}
+#home::before{
+    height: 480px;
+    flex-direction: column;
+}
+#home p{
+    font-size: 13px;
+}
+/* Services section */
+#services{
+    flex-direction: column;
+}
+#services .box img {
+    height: 100px;
+}
+/* Our team section */
+#team-members{
+    flex-wrap: wrap;
+}
+#team-members img{
+    width: 66px;
+    padding: 6px;
+    height: auto;
+} 
+
+/* contact us section */
+#contactus h1 {
+    font-size: 25px;
+}
+#contact-form form{
+    width: 76%;
+}
+#contact-form label {
+    font-size: 16px;
+    font-family: 'Bree Serif', serif;
+}
+/* utility classes */
+.h1-primary-center{
+    font-size: 26px;
+}
+.h2-secondary {
+    font-size: 1.3rem;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 10px;
+}
